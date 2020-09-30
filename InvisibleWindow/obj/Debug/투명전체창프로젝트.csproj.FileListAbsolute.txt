@@ -1,0 +1,15 @@
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\bin\Debug\투명전체창프로젝트.exe.config
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\bin\Debug\투명전체창프로젝트.exe
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\bin\Debug\투명전체창프로젝트.pdb
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.csprojAssemblyReference.cache
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\MainWindow.g.cs
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\App.g.cs
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트_MarkupCompile.cache
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트_MarkupCompile.lref
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\MainWindow.baml
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.g.resources
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.Properties.Resources.resources
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.csproj.GenerateResource.cache
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.csproj.CoreCompileInputs.cache
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.exe
+D:\Programming\C#\투명전체창프로젝트\투명전체창프로젝트\obj\Debug\투명전체창프로젝트.pdb

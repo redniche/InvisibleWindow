@@ -1,0 +1,17 @@
+﻿<Window x:Class="투명전체창프로젝트.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:투명전체창프로젝트"
+        mc:Ignorable="d"
+        Title="MainWindow" ResizeMode="NoResize" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" IsHitTestVisible ="True" Background="{x:Null}"
+        Icon="bongo.ico">
+    <Grid>
+
+        <Rectangle Fill="#FFF4F4F5" Height="5000" Stroke="Black"  Width="5000" Opacity="0.002" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Foreground="Red" Margin="10,10,0,0" TextWrapping="Wrap" Text="투명창 실행중" VerticalAlignment="Top" Height="84" Width="259" FontSize="36"/>
+
+
+    </Grid>
+</Window>

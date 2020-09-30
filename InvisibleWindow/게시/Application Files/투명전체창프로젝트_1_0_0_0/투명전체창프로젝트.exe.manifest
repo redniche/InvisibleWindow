@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="투명전체창프로젝트.exe" version="1.0.0.0" publicKeyToken="8375f2d5c95bd152" language="ko" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="bongo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="투명전체창프로젝트" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="투명전체창프로젝트.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+          <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+          <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+          이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+          requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="투명전체창프로젝트.exe" size="284616">
+      <assemblyIdentity name="투명전체창프로젝트" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Vb58RxI2Qv3PChv4zSeZE47xnUbGzAEG302Mhazh9mk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bongo.ico" size="137278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>04VPP4yfh/2oEuyp4QxnTPCmOmGSPucHgTS60fDB/Kw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="투명전체창프로젝트.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=REDNICHE\Redniche" issuerKeyHash="28314592e28e3c343f8f2972c9361c319c6735df" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pweDe3csxOZBQM5272zUaPlNwBPIEllySyTufGwCP5I=</DigestValue></Reference></SignedInfo><SignatureValue>JNli0/1btCxkyDVNJh2rui9JeUh/mL+9T+GmYqU7F1gdjcZoPlC1VBaZSAszCmZS6lBtkuybXP3Zy20zXp9WKqy+wHtPOaB3liLOADEyvVFgpD/FhsD178rZTaOZ9tQTozA7Vy9bvi02yQTQsQ9JmJzLeJuRP1jfgnA+IcA2vMg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1dD+3NolfI3NCG5tsbt28222gC6MsP0RNmO/Xbpa5J1L9ue4omNNDio3ng7PhBev5CbgVHiFbzSl+7iumiwte11dt6wf3zKZJdDrbakD1Ge6l9aY80K0PssVGVxKExPz8MLFm4H4oII4RT3BWu9bhTrzICobVet8bv3+ZWAh9qE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="923f026c7cee244b725912c813c04df968d46cef76ce4041e6c42c777b8307a7" Description="" Url=""><as:assemblyIdentity name="투명전체창프로젝트.exe" version="1.0.0.0" publicKeyToken="8375f2d5c95bd152" language="ko" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=REDNICHE\Redniche</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lg9sjZzcgzpZqQMuSJpI4SUs8RPo9c+GDFJLQ0CcaYo=</DigestValue></Reference></SignedInfo><SignatureValue>RI2jZm73pBJU8bqPIpBZTSGHgfn/8Cwnn2IJdzzXYUtxIOHGcE1LVGp+RbIVzA0HbKPE69RGRTfPsX5Ry69wQf64nUXI8yuiIwfOVf2UXCo5GVX0HmtS+YR0+eeykIWHx1QmLQXioQyvkKRQM74ZiitXQfvySM+PtqzqkiH0q+s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1dD+3NolfI3NCG5tsbt28222gC6MsP0RNmO/Xbpa5J1L9ue4omNNDio3ng7PhBev5CbgVHiFbzSl+7iumiwte11dt6wf3zKZJdDrbakD1Ge6l9aY80K0PssVGVxKExPz8MLFm4H4oII4RT3BWu9bhTrzICobVet8bv3+ZWAh9qE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQOUiWSp0l+7VG4HHDUtL9hTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAUgBFAEQATgBJAEMASABFAFwAUgBlAGQAbgBpAGMAaABlMB4XDTIwMDkzMDEzNTMxNFoXDTIxMDkzMDE5NTMxNFowLTErMCkGA1UEAx4iAFIARQBEAE4ASQBDAEgARQBcAFIAZQBkAG4AaQBjAGgAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1dD+3NolfI3NCG5tsbt28222gC6MsP0RNmO/Xbpa5J1L9ue4omNNDio3ng7PhBev5CbgVHiFbzSl+7iumiwte11dt6wf3zKZJdDrbakD1Ge6l9aY80K0PssVGVxKExPz8MLFm4H4oII4RT3BWu9bhTrzICobVet8bv3+ZWAh9qECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBDtvmc/nwnPpNRufQDXDt1eT4jkRxlJb9pqWONToFZN0Wyuh0w9wJPfRK3C/F2gB4kBb+UhM3js+geJnQtRwmzB/1OoE+agJI/OPT/vFrtDOM1PD2SykHLFe6A9Ic45DGwHtnH5m6KlTDlvvLCg5fmOYY+vfjKy5niF5hJSJCE7w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
